@@ -1,5 +1,5 @@
 import { Container, Image } from 'react-bootstrap';
-import LogoTokenomics from '../Assets/tokenomic.png';
+import LogoVirtua from '../Assets/logo virtua.png';
 import style from './Tokenomics.module.css';
 function Tokenomics() {
   return (
@@ -8,7 +8,7 @@ function Tokenomics() {
         <h1 className='text-center mb-1'>TOKENOMICS</h1>
 
         <div className='d-flex justify-content-center pt-5'>
-          <Image src={LogoTokenomics} />
+          <Image src={LogoVirtua} />
         </div>
         <div className='fw-bold'>
           <div className='d-flex justify-content-center '>Smart Contract :</div>
