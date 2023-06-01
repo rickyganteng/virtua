@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
+
+.FontAbout {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #00345b;
+  text-shadow: 1px 1px 1px #00345b;
+  /* text-align: center; */
+}
+.FontAboutTeks{
+  transition: transform 250ms;
+}
+.FontAboutTeks:hover{
+  cursor: pointer;
+  transform: translateY(-15px);
+
+}
+.FontIcon {
+  font-size: 40px;
+  color: rgb(146, 183, 216);
+}
+/* <p className='border: 2px dashed #ee3f10; padding: 15px'> */
+
+.myPhoto {
+  z-index: 1000;
+  /* -moz-transform: rotate(150deg); */
+  /* background-color: blueviolet; */
+  /* -webkit-transform: rotate(-3deg); */
+  /* border-style: solid; */
+  border-radius: 10%;
+  width: 300px;
+  height: 433px;
+
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  transition: transform 550ms;
+}
+
+/* .Persegi1,
+.Persegi2,
+.Persegi3, */
+.myPhoto:hover {
+  transform: scale(1.1);
+  /* width: 320px;
+  height: 453px; */
+}

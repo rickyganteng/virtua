@@ -1,0 +1,17 @@
+.Justify {
+  text-align: center;
+}
+.myPhoto {
+  width: 80px;
+  height: 80px;
+  transition: transform 550ms;
+}
+  .myPhoto:hover {
+    transform: scale(1.1);
+  }
+  .reSizeIcon{
+    text-decoration:none
+  }
+  .reSizeIcon:hover{
+    cursor: pointer;
+  }

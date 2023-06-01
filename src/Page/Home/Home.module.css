@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.Container {
+  background: #fffbfb;
+  /* background: rgba(255, 255, 255, 0.5) url('../../Components/Assets/ice-34075.svg') no-repeat 0 50%; */
+  /* background-image: url('../../Components/Assets/ice-34075.svg'); 
+  background-repeat: no-repeat;*/
+  /* background-position: right top;  */
+  /* margin-right: 200px; */
+  /* opacity: 0.2; */
+  /* position: fixed; */
+   /* right: 900%;  */
+}
+.Container:before {
+  content: url('../../Components/Assets/ice-34075.svg');
+  filter:alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  opacity:.20;
+  position: fixed;
+  top: 40%;
+  right: -30%;
+}
+.top {
+  margin-top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-size: 40px; */
+  background: -webkit-linear-gradient(
+    left,
+    rgb(252, 252, 252) 40%,
+    rgb(169, 73, 247) 50% /* rgb(255, 255, 255) 100% */
+  );
+  /* color: transparent; */
+  background-clip: text;
+  
+}
+.FontName {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+}
+.ColorWhite {
+  color: #00a7e6;
+  transition: 1s ease-in-out;
+}
+.FontJob {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(6, 161, 250) 0%,
+    rgba(152, 235, 97, 1) 50%,
+    rgb(255, 255, 255) 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.Margintop {
+  margin-top: 150px;
+}
+
+.FontJobMain {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.CubeBackground{
+  opacity: 0.2;
+  position: fixed;
+  right: 80%;
+
+  /* height: 300px; */
+}
+.CubeBackground2{
+  /* margin-left: 1000px; */
+  opacity: 0.2;
+  /* float: right; */
+  /* height: 300px; */
+  float: right;
+  /* margin: 5px; */
+  position: fixed;
+  top:-250px;
+  bottom: 0;
+  right: -350px;
+  transform: rotate(180deg);
+  /* width: 300px; */
+}
+/*  */
+
+
+/*  */
+
+.stage {
+  position: relative;
+  margin: 1em auto;
+  width: 660px;
+  height: 240px;
+  border: 2px solid #666;
+  background: #cff;
+}
+
+/*  */
+
+.traveler {
+  position: absolute;
+  width: 20px;
+  height: 240px;
+
+  -webkit-animation-name: travel;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 4.8s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 4.8s;
+}
+
+.bouncer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 10px;
+
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 4.2s;
+
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 4.2s;
+}
+@-webkit-keyframes bounce {
+  from, to  {
+    bottom: 0;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 220px;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+
+@keyframes bounce {
+  from, to  {
+    botttom: 0;
+    animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 220px;
+    animation-timing-function: ease-in;
+  }
+}
+
+/*  */
+

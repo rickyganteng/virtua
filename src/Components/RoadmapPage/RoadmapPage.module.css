@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Oswald:wght@700&display=swap');
+
+.Container{
+  background: #00a7e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.GarisBawah {
+  border-right: 5px black solid;
+  height: 370px;
+  width: 0px;
+  margin-bottom: 300px;
+}
+
+.namaPerusahaan {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.HalyangDilakukan {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.FontJob {
+  color: #fff;
+  padding-top: 20px;
+  /* color: transparent; */
+  /* background-clip: text; */
+}
+.line {
+  /* border-left: 3px dotted black; */
+  position: relative;
+  /* padding: 10px; */
+  margin: 1px 0px;
+  height: 3px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 10px,
+    black 10px,
+    black 20px
+  )
+  }
+
+  .dot {
+    /* margin: 0 auto; */
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    /* margin-left: 110px; */
+    /* padding-top: 100px; */
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 195, 255);
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+
+    
+  }
+  .dot1 {
+    /* margin: 0 auto; */
+    height: 15px;
+    width: 15px;
+    margin-bottom: 1px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dotABuAwal {
+    /* margin: 0 auto; */
+    height: 15px;
+    width: 15px;
+    margin-top: -10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: flex; */
+    float: left;
+    position: relative;
+
+  }
+  .dotABuAkhir {
+    /* margin: 0 auto; */
+    height: 15px;
+    width: 15px;
+    margin-top: -10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: flex; */
+    float: right;
+    position: relative;
+
+  }
+  .dot01 {
+    /* margin: 0 auto; */
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    /* margin-left: 420px; */
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 195, 255);
+    position: relative;
+    /* float: left; */
+    /* display: inline-block; */
+
+  }
+  .dotInAwal {
+    /* margin: 0 auto; */
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    /* margin-left: 420px; */
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 195, 255);
+    position: relative;
+    /* float: left; */
+  }
+  .dotInAkhir {
+    /* margin: 0 auto; */
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    /* margin-left: -12px; */
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 195, 255);
+    position: relative;
+    /* float: right; */
+    /* float: left;   */
+  }
+  .dot02 {
+    /* margin: 0 auto; */
+    height: 25px;
+    width: 25px;
+    margin-top: -15px;
+    /* margin-left: -12px; */
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 195, 255);
+    position: absolute;
+    display: inline-block;
+
+    /* float: left;   */
+  }
+.PositionCard{
+  /* float:right; */
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.PositionCard2{
+  /* float:right; */
+  margin-left: 30px;
+  /* margin-top: 100px; */
+}
+.PositionCard3{
+  /* float:right; */
+  margin-left: 680px;
+  margin-top: 220px;
+}
+.position{
+  margin-top: -110px;
+  margin-bottom: 100px;
+}
+.dotPosition{
+  margin-left: -3px;
+}
+.CardBodyAwal{
+  text-align: justify; 
+  color: #00a7e6
+  /* position: absolute;
+  /* display: inline-block; */ 
+  /* align-items: center; */
+}
+.Card{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(222, 246, 255), 0 9px 25px 0 rgba(0, 0, 0, 0.19);
+  /* border: 2px solid #005574; */
+  /* border-color: $primary; */
+}
+
+.CardAwal:hover{
+  cursor: pointer;
+  /* position: absolute;
+  display: inline-block; */
+  /* align-items: center; */
+}
+.ButtonYes{
+background: rgb(132, 225, 248);
+font-weight: bold;
+}
+.ButtonNo{
+  background: lavender;
+  font-weight: 500;
+}
