@@ -12,6 +12,9 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* text-align: center; */
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 .card1:hover{
   transform: translateY(-15px);
@@ -21,7 +24,7 @@
   width: 100px;
   display: block;
   margin: auto;
-justify-content: center;
+  justify-content: center;
 }
 .Container{
   background-color: whitesmoke;
@@ -31,4 +34,10 @@ justify-content: center;
   /* text-align: center; */
   margin-bottom: 10px;
   padding-bottom: 100px;
+}
+.Swiper{
+  margin-left: 300pz;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }

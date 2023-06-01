@@ -41,12 +41,12 @@ function RoadmapPage() {
                 className={`${style.CardAwal} mb-3 row justify-content-center `}
               >
                 <Card style={{ width: '30rem' }} className={style.Card}>
-                  <Card.Title>
-                    <ContextAwareToggle eventKey='0'>
-                      <p>Phase 1</p>
-                      <p>Community Building and Marketing</p>
-                    </ContextAwareToggle>
-                  </Card.Title>
+                  {/* <Card.Title> */}
+                  <ContextAwareToggle eventKey='0'>
+                    <p>Phase 1</p>
+                    <p>Community Building and Marketing</p>
+                  </ContextAwareToggle>
+                  {/* </Card.Title> */}
                   <Accordion.Collapse eventKey='0'>
                     <Card.Body>
                       <div
@@ -72,12 +72,12 @@ function RoadmapPage() {
                 className={`${style.CardAwal} mb-3 row justify-content-center`}
               >
                 <Card style={{ width: '30rem' }} className={style.Card}>
-                  <Card.Title>
-                    <ContextAwareToggle eventKey='1'>
-                      <p>Phase 2</p>
-                      <p>Prototyping and Development</p>
-                    </ContextAwareToggle>
-                  </Card.Title>
+                  {/* <Card.Title> */}
+                  <ContextAwareToggle eventKey='1'>
+                    <p>Phase 2</p>
+                    <p>Prototyping and Development</p>
+                  </ContextAwareToggle>
+                  {/* </Card.Title> */}
                   <Accordion.Collapse eventKey='1'>
                     <Card.Body>
                       <div
@@ -105,12 +105,12 @@ function RoadmapPage() {
                 className={`${style.CardAwal} mb-3 row justify-content-center`}
               >
                 <Card style={{ width: '30rem' }} className={style.Card}>
-                  <Card.Title>
-                    <ContextAwareToggle eventKey='2'>
-                      <p>Phase 3</p>
-                      <p>Network Development</p>
-                    </ContextAwareToggle>
-                  </Card.Title>
+                  {/* <Card.Title> */}
+                  <ContextAwareToggle eventKey='2'>
+                    <p>Phase 3</p>
+                    <p>Network Development</p>
+                  </ContextAwareToggle>
+                  {/* </Card.Title> */}
                   <Accordion.Collapse eventKey='2'>
                     <Card.Body>
                       <div
@@ -135,12 +135,12 @@ function RoadmapPage() {
                 className={`${style.CardAwal} mb-3 row justify-content-center`}
               >
                 <Card style={{ width: '30rem' }} className={style.Card}>
-                  <Card.Title>
-                    <ContextAwareToggle eventKey='3'>
-                      <p>Phase 4</p>
-                      <p>Launch and Growth</p>
-                    </ContextAwareToggle>
-                  </Card.Title>
+                  {/* <Card.Title> */}
+                  <ContextAwareToggle eventKey='3'>
+                    <p>Phase 4</p>
+                    <p>Launch and Growth</p>
+                  </ContextAwareToggle>
+                  {/* </Card.Title> */}
                   <Accordion.Collapse eventKey='3'>
                     <Card.Body>
                       <div

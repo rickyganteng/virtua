@@ -29,6 +29,7 @@ function WhyChooseUs() {
           modules={[Navigation, Pagination, Scrollbar, Autoplay]}
           slidesPerView={1}
           spaceBetween={10}
+          // centeredSlides={true}
           navigation={true}
           // autoplay={{
           //   delay: 2500,
@@ -57,6 +58,7 @@ function WhyChooseUs() {
           }}
           className='mySwiper'
         >
+          {/* <div className={style.Swiper}> */}
           <Row>
             <Col sm>
               <SwiperSlide>
@@ -253,6 +255,7 @@ function WhyChooseUs() {
               </SwiperSlide>
             </Col>
           </Row>
+          {/* </div> */}
         </Swiper>
       </Container>
     </>

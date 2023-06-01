@@ -21,10 +21,7 @@ class Home extends Component {
       <>
         <Container className={`${style.Container}`} fluid>
           <Navbar />
-          <h3 className={`${style.ColorWhite} ${style.top} ms-5`} id='about'>
-            Virtua
-          </h3>
-          <div data-aos='fade-down-right'>
+          <div data-aos='fade-down-right' id='about'>
             <About />
           </div>
           <div className={style.Margintop} id='whychooseus' data-aos='zoom-in'>

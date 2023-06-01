@@ -15,6 +15,23 @@
   transform: translateY(-15px);
 
 }
+.ColorWhite {
+  color: #00a7e6;
+  transition: 1s ease-in-out;
+}
+.top {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-size: 40px; */
+  background: -webkit-linear-gradient(
+    left,
+    rgb(252, 252, 252) 40%,
+    rgb(169, 73, 247) 50% /* rgb(255, 255, 255) 100% */
+  );
+  /* color: transparent; */
+  background-clip: text;
+  
+}
 .FontIcon {
   font-size: 40px;
   color: rgb(146, 183, 216);
