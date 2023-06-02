@@ -33,7 +33,11 @@ function RoadmapPage() {
   return (
     <>
       <Container className={style.Container} fluid>
-        <h1 className={`text-center  ${style.FontJob} pb-5 mt-5`}>ROADMAP</h1>
+        <h1
+          className={`text-center  ${style.FontJob} ${style.Title} pb-3 mt-1`}
+        >
+          ROADMAP
+        </h1>
         <Accordion defaultActiveKey=''>
           <Row>
             <Col>

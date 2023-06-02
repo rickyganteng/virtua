@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+
 .NameWebsite {
   font-size: 20px;
 }
@@ -18,7 +21,12 @@
 
 .Container{
   background-color: rgb(222, 246, 255);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgb(222, 246, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  /* box-shadow: 0 4px 8px 0 rgb(222, 246, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 80px 0 rgba(129, 129, 129, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+}
+.Title{
+  font-family: 'Monomaniac One', sans-serif;
+  font-weight: bold;
 }

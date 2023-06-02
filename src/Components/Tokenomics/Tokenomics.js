@@ -4,15 +4,15 @@ import style from './Tokenomics.module.css';
 function Tokenomics() {
   return (
     <>
-      <Container className={`${style.Container} pb-5 pt-3`} fluid>
-        <h1 className='text-center mb-1'>TOKENOMICS</h1>
+      <Container className={`${style.Container} pb-3 pt-3`} fluid>
+        <h1 className={`${style.Title} text-center mb-1`}>TOKENOMICS</h1>
 
-        <div className='d-flex justify-content-center pt-5'>
-          <Image src={LogoVirtua} />
+        <div className={`d-flex justify-content-center pt-3`}>
+          <Image src={LogoVirtua} className={style.Imagee} />
         </div>
         <div className='fw-bold'>
           <div className='d-flex justify-content-center '>Smart Contract :</div>
-          <div className='d-flex justify-content-center '>
+          <div className={`${style.Textt} d-flex justify-content-center `}>
             0x71ff5D545cb6B3fD31Ca7b451279c2b34E80253D
           </div>
           <div className='d-flex justify-content-center pt-5'>

@@ -22,7 +22,9 @@ function WhyChooseUs() {
       <Container className={style.Container} fluid>
         <Row>
           <Col>
-            <h1 className={`text-center mb-5 `}>Why Choose Us</h1>
+            <h1 className={`${style.Title} text-center pb-3 mt-1`}>
+              Why Choose Us
+            </h1>
           </Col>
         </Row>
         <Swiper
@@ -44,11 +46,11 @@ function WhyChooseUs() {
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 30,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 40,
             },
             2200: {

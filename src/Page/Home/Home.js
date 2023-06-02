@@ -24,7 +24,7 @@ class Home extends Component {
           <div data-aos='fade-down-right' id='about'>
             <About />
           </div>
-          <div className={style.Margintop} id='whychooseus' data-aos='zoom-in'>
+          <div className='mt-5' id='whychooseus' data-aos='zoom-in'>
             <WhyChooseUs />
           </div>
           <div className={style.Margintop} id='roadmap' data-aos='zoom-in'>
