@@ -1,9 +1,6 @@
-import { Container, Tabs, Tab } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 import FaqGeneral from './FAQSComponent/FAQGeneral.js';
-import FaqTokens from './FAQSComponent/FAQTokens.js';
-import FaqClient from './FAQSComponent/FAQClient.js';
-import FaqLegal from './FAQSComponent/FAQLegal.js';
 import style from './Faqs.module.css';
 function Portofolio() {
   return (
