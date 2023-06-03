@@ -32,13 +32,13 @@
   background-color: whitesmoke;
   /* position: relative; */
   border-radius: 50px;
-  box-shadow: 0 4px 80px 0 rgba(6, 160, 231, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 80px 0 rgba(28,218,244,255), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
   /* text-align: center; */
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-style: solid;
   border-width: 40px 4px 40px 4px;
-  border-color: #00a7e6;
+  border-color: #245fe2;
 
 }
 .Swiper{

@@ -8,55 +8,48 @@ function FaqGeneral() {
             <Col>
               <Accordion defaultActiveKey=''>
                 <Accordion.Item eventKey='0'>
-                  <Accordion.Header>What is Ico Crypto?1</Accordion.Header>
+                  <Accordion.Header>DEVELOPERS DOCS</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Any developer can build on the Virua Chain without
+                    limitations, virtua is compatible with Remix, Truffle and
+                    all the tools available for the Ethereum Blockchain without
+                    any compatibility issues.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                  <Accordion.Header>What is Ico Crypto?2</Accordion.Header>
+                  <Accordion.Header>Virtua SWAP</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    We have become heavy users of Potion across our entire team.
+                    It has increased our sales team's performance substantially
+                    and we are incorporating it into more and more of our
+                    routines every week
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
-                  <Accordion.Header>What is Ico Crypto?3</Accordion.Header>
+                  <Accordion.Header>Virtua STAKING</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    We have become heavy users of Potion across our entire team.
+                    It has increased our sales team's performance substantially
+                    and we are incorporating it into more and more of our
+                    routines every week
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>
-                  <Accordion.Header>What is Ico Crypto?4</Accordion.Header>
+                  <Accordion.Header>ViRTUA WALLET</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Send, Received and Keep coins and another tokens in the
+                    wallet on Virtua wallet. A well known messaging application
+                    all decentralized and secure. U can download for IOS and
+                    ANDROID ASAP
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='4'>
+                  <Accordion.Header>VIRTUA EXCHANGE</Accordion.Header>
+                  <Accordion.Body>
+                    Special exchange which has many features including FUTURE
+                    features and trades in real time and transparently. And As
+                    soon As possible, when the mainnet release, u will find Al
+                    system works fine in our exchange
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>

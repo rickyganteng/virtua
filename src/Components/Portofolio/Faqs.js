@@ -6,10 +6,10 @@ function Portofolio() {
   return (
     <>
       <Container className={`${style.Container} pb-5 pt-3`} fluid>
-        <h1 className={`${style.Title} text-center mb-1`}>FAQS</h1>
-        <h3 className={`${style.Title} text-center mb-3`}>
-          Frequently Asked questions
-        </h3>
+        <h1 className={`${style.Title} text-center mb-2`}>
+          BEST OFFER UTILITY FOR LAUNCHING !
+        </h1>
+
         <div>
           <FaqGeneral />
         </div>

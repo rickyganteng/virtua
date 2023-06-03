@@ -4,7 +4,7 @@
 .Container{
   background: #fff7f7;
   border-radius: 50px;
-  box-shadow: 0 4px 80px 0 rgba(6, 160, 231, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 80px 0 rgba(28,218,244,255), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
   text-align: center;
   margin-bottom: 10px;
   padding-bottom: 100px;
@@ -12,18 +12,28 @@
   border-style: solid;
   
   border-width: 40px 4px 40px 4px;
-    border-color: #00a7e6;
+    border-color: #245fe2;
 }
 .Imagee{
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 .Title{
   font-family: 'Monomaniac One', sans-serif;
   font-weight: bold;
 }
+.bodyText{
+  font-size: 20px;
+}
 @media screen and (max-width: 600px) {
   .Textt {
-    font-size: 14px;
+    font-size: 13px;
   }
+  .Imagee{
+    width: 100%;
+    height: auto;
+  }
+  /* .bodyText{
+    fon
+  } */
 }

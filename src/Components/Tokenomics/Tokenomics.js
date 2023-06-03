@@ -10,10 +10,10 @@ function Tokenomics() {
         <div className={`d-flex justify-content-center pt-3`}>
           <Image src={LogoVirtua} className={style.Imagee} />
         </div>
-        <div className='fw-bold'>
+        <div className={`${style.bodyText} fw-bold`}>
           <div className='d-flex justify-content-center '>Smart Contract :</div>
           <div className={`${style.Textt} d-flex justify-content-center `}>
-            0x71ff5D545cb6B3fD31Ca7b451279c2b34E80253D
+            0x7xxx
           </div>
           <div className='d-flex justify-content-center pt-5'>
             TOTAL SUPPLY : 1.000.000.000
